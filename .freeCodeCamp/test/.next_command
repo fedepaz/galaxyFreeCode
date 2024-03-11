@@ -31,3 +31,10 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 psql --username=freecodecamp --dbname=postgres
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git remote add origin https://github.com/fedepaz/galaxyFreeCode.git
+ls --color=auto
+cd ..
+git init
+git remote add origin https://github.com/fedepaz/galaxyFreeCode.git
+git remote set-url origin https://github.com/fedepaz/galaxyFreeCode.git
+git branch -M main
+git push -u origin main
